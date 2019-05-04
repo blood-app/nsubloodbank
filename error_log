@@ -1,0 +1,87 @@
+[10-Dec-2018 00:58:48 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Table 'bloodapp_app.requests' doesn't exist query: SELECT  request_id, blood_group, place, contact, status FROM requests WHERE  status = ? ' in /home/bloodapp/public_html/dev/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/dev/admin/assets/classes/MysqliDb.php(1519): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/dev/admin/assets/classes/MysqliDb.php(686): MysqliDb->_buildQuery(NULL)
+#2 /home/bloodapp/public_html/dev/admin/blood_requests.php(19): MysqliDb->get('requests', NULL, Array)
+#3 {main}
+  thrown in /home/bloodapp/public_html/dev/admin/assets/classes/MysqliDb.php on line 1926
+[10-Dec-2018 00:58:49 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Table 'bloodapp_app.requests' doesn't exist query: SELECT  request_id, blood_group, place, contact, status FROM requests WHERE  status = ? ' in /home/bloodapp/public_html/dev/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/dev/admin/assets/classes/MysqliDb.php(1519): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/dev/admin/assets/classes/MysqliDb.php(686): MysqliDb->_buildQuery(NULL)
+#2 /home/bloodapp/public_html/dev/admin/blood_requests.php(19): MysqliDb->get('requests', NULL, Array)
+#3 {main}
+  thrown in /home/bloodapp/public_html/dev/admin/assets/classes/MysqliDb.php on line 1926
+[17-Dec-2018 10:40:37 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'request_id' in 'field list' query: SELECT  request_id, blood_group, place, contact, status FROM requests WHERE  status = ? ' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(1519): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(686): MysqliDb->_buildQuery(NULL)
+#2 /home/bloodapp/public_html/admin/blood_requests.php(33): MysqliDb->get('requests', NULL, Array)
+#3 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[27-Dec-2018 14:01:01 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'AND pass =' at line 1 query: select * from donor_primary_info where phone_number =  AND pass = ' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 14:37:40 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'bloodapp' in 'where clause' query: select * from donor_primary_info where phone_number = bloodapp AND pass = bloodAPP_01' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 14:38:04 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'bloodapp' in 'where clause' query: select * from donor_primary_info where phone_number = bloodapp AND pass = bloodAPP_01' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 16:29:56 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from donor_primary_info where phone_number = 01676538450 AND pass = ' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 16:30:03 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from donor_primary_info where phone_number = 01676538450 AND pass = ' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 16:30:29 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 query: select * from donor_primary_info where phone_number = 01676538450 AND pass = ' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 17:10:40 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'bloodapp' in 'where clause' query: select * from donor_primary_info where phone_number = bloodapp AND pass = bloodAPP_01' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 17:10:57 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'bloodapp' in 'where clause' query: select * from donor_primary_info where phone_number = bloodapp AND pass = bloodAPP_01' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 21:57:43 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'bloodapp' in 'where clause' query: select * from donor_primary_info where phone_number = bloodapp AND pass = bloodAPP_01' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 21:59:22 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'bloodapp' in 'where clause' query: select * from donor_primary_info where phone_number = bloodapp AND pass = bloodAPP_01' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
+[04-May-2019 22:00:35 Asia/Dhaka] PHP Fatal error:  Uncaught exception 'Exception' with message 'Unknown column 'bloodapp' in 'where clause' query: select * from donor_primary_info where phone_number = bloodapp AND pass = bloodAPP_01' in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php:1926
+Stack trace:
+#0 /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php(516): MysqliDb->_prepareQuery()
+#1 /home/bloodapp/public_html/admin/process.php(10): MysqliDb->rawQuery('select * from d...')
+#2 {main}
+  thrown in /home/bloodapp/public_html/admin/assets/classes/MysqliDb.php on line 1926
